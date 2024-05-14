@@ -1,6 +1,5 @@
 pipeline {
-    agent any
-    
+    agent any    
     stages {
         stage('Execute ls command') {
             steps {
