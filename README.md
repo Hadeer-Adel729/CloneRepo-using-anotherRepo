@@ -56,7 +56,7 @@ Task2
 
 1-Create bash script file that executes the "Is" command
 
- -> the 'ls command is written in 'execute_ls.sh' file in master branch
+ -> the script is written in 'execute_ls.sh' file in master branch
  
 2-Push the bash file into a newly created repo
 
@@ -78,7 +78,7 @@ Task2
 
 .Script Path: Enter the path to your Jenkinsfile, typically Jenkinsfile.
 
--> the script is written in 'Jenkinsfile' in master branch
+-> the script 'Jenkinsfile' in master branch
 
 .Save your changes.
 
