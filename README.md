@@ -49,7 +49,7 @@ to create a New Pipeline Project:-
 
 -Click on "Build Now" to start the pipeline execution.
 
-//==================================================================
+
 
 Task2
 -----
@@ -64,21 +64,21 @@ Task2
 
 4-Create a CI/CD for this by configuring jenkins to pull the repo and execute the bash file:
 
--In your Jenkins dashboard, click on your pipeline project.
+  -In your Jenkins dashboard, click on your pipeline project.
 
--Click on "Configure" to edit the pipeline settings.
+  -Click on "Configure" to edit the pipeline settings.
 
--Scroll down to the "Pipeline" section and configure the following:-
+  -Scroll down to the "Pipeline" section and configure the following:-
 
-.Definition: Pipeline script from SCM
+    .Definition: Pipeline script from SCM
 
-.SCM: Select Git and provide your repository URL.
+    .SCM: Select Git and provide your repository URL.
 
-.Set the branch to */master.
+    .Set the branch to */master.
 
-.Script Path: Enter the path to your Jenkinsfile, typically Jenkinsfile.
+    .Script Path: Enter the path to your Jenkinsfile, typically Jenkinsfile.
 
--> the script 'Jenkinsfile' in master branch
+    -> the script 'Jenkinsfile' in master branch
 
-.Save your changes.
+    .Save your changes.
 
