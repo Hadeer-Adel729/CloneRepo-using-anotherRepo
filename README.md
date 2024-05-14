@@ -13,7 +13,7 @@ Task1
 
 4-create a pipeline that executes and prints "Hello world"
 
-to create a New Pipeline Project:
+to create a New Pipeline Project:-
 
 -Click on "New Item" on the Jenkins dashboard.
 
@@ -24,7 +24,8 @@ to create a New Pipeline Project:
 -Scroll down to the Pipeline section, select "Pipeline script" from the Definition dropdown.
 
 -In the script area, paste the following code:
---
+------
+
 pipeline {
 
     agent any
@@ -42,7 +43,6 @@ pipeline {
         }
         
     }
-    
 }
 
 -Save the Pipeline: Click on "Save" to save your pipeline configuration
