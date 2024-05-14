@@ -14,7 +14,7 @@ Task1
 4-create a pipeline that executes and prints "Hello world"
 
 to create a New Pipeline Project:
--------------
+
 -Click on "New Item" on the Jenkins dashboard.
 
 -Enter a name for your pipeline project, select "Pipeline", and click "OK".
@@ -24,18 +24,30 @@ to create a New Pipeline Project:
 -Scroll down to the Pipeline section, select "Pipeline script" from the Definition dropdown.
 
 -In the script area, paste the following code:
+-
 
 pipeline {
+
     agent any
+    
     stages {
+    
         stage('Hello') {
+        
             steps {
+            
                 echo 'Hello world'
+                
             }
+            
         }
+        
     }
+    
 }
+
 -Save the Pipeline: Click on "Save" to save your pipeline configuration
+
 -Click on "Build Now" to start the pipeline execution.
 
 //==================================================================
@@ -50,7 +62,6 @@ Task2
 3-Create a new pipeline item on jenkins 
 
 4-Create a CI/CD for this by configuring jenkins to pull the repo and execute the bash file:
----
 
 -In your Jenkins dashboard, click on your pipeline project.
 
