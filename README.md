@@ -24,7 +24,6 @@ to create a New Pipeline Project:-
 -Scroll down to the Pipeline section, select "Pipeline script" from the Definition dropdown.
 
 -In the script area, paste the following code:
-------
 
 pipeline {
 
@@ -43,6 +42,7 @@ pipeline {
         }
         
     }
+    
 }
 
 -Save the Pipeline: Click on "Save" to save your pipeline configuration
@@ -54,8 +54,10 @@ pipeline {
 Task2
 -----
 
-1-Create bash script file that executes the "Is" command -> (the 'ls command is written in 'execute_ls.sh' file in master branch)
+1-Create bash script file that executes the "Is" command
 
+ -> (the 'ls command is written in 'execute_ls.sh' file in master branch)
+-
 2-Push the bash file into a newly created repo
 
 3-Create a new pipeline item on jenkins 
@@ -74,7 +76,10 @@ Task2
 
 .Set the branch to */master.
 
-.Script Path: Enter the path to your Jenkinsfile, typically Jenkinsfile. -> (the script is written in 'Jenkinsfile' in master branch)
+.Script Path: Enter the path to your Jenkinsfile, typically Jenkinsfile.
+
+-> (the script is written in 'Jenkinsfile' in master branch)
+-
 
 .Save your changes.
 
