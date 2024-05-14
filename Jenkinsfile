@@ -1,10 +1,10 @@
 pipeline {
     agent any
     stages {
-        stage('Execute ls command') {
+        stage('Execute dir command') {
             steps {
                 script {
-                    sh 'ls'
+                    bat 'dir'
                 }
             }
         }
