@@ -4,7 +4,7 @@ pipeline {
         stage('Execute ls command') {
             steps {
                 script {
-                    sh 'bash execute_is.sh'
+                    sh 'execute_ls.sh'
                 }
             }
         }
