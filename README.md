@@ -24,8 +24,7 @@ to create a New Pipeline Project:
 -Scroll down to the Pipeline section, select "Pipeline script" from the Definition dropdown.
 
 -In the script area, paste the following code:
--
-
+--
 pipeline {
 
     agent any
