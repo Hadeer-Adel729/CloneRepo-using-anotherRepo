@@ -25,25 +25,25 @@ to create a New Pipeline Project:-
 
 -In the script area, paste the following code:
 
-pipeline {
+    pipeline {
 
-    agent any
+        agent any
     
-    stages {
+            stages {
     
-        stage('Hello') {
+                stage('Hello') {
         
-            steps {
+                    steps {
             
-                echo 'Hello world'
+                        echo 'Hello world'
                 
-            }
+                    }
             
-        }
+                }
         
-    }
+            }
     
-}
+        }
 
 -Save the Pipeline: Click on "Save" to save your pipeline configuration
 
@@ -57,7 +57,7 @@ Task2
 1-Create bash script file that executes the "Is" command
 
  -> (the 'ls command is written in 'execute_ls.sh' file in master branch)
--
+---------------------------------------
 2-Push the bash file into a newly created repo
 
 3-Create a new pipeline item on jenkins 
@@ -79,7 +79,7 @@ Task2
 .Script Path: Enter the path to your Jenkinsfile, typically Jenkinsfile.
 
 -> (the script is written in 'Jenkinsfile' in master branch)
--
+---------------------------------------
 
 .Save your changes.
 
