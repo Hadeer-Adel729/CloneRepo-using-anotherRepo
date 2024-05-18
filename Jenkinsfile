@@ -18,7 +18,7 @@ pipeline {
             steps {
                 // Clone the repository with the batch script
                 dir('RepoWithScript') {
-                    git branch: 'main', url: 'https://github.com/Hadeer-Adel729/CloudTask.git'
+                    git branch: 'master', url: 'https://github.com/Hadeer-Adel729/CloudTask.git'
                 }
 
                 // Clone the repository with the files you want to list
