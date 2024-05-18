@@ -17,12 +17,14 @@ pipeline {
         stage('Clone Repositories') {
             steps {
                 // Clone the repository with the batch script
-                git branch: 'master', url: 'https://github.com/Hadeer-Adel729/CloudTask.git'
-
+                dir('RepoWithScript') {
+                    git branch: 'main', url: 'https://github.com/Hadeer-Adel729/CloudTask.git'
+                }
 
                 // Clone the repository with the files you want to list
-                git branch: 'main', url: 'https://github.com/Hadeer-Adel729/CmakeList-OpenCV.git'
-
+                dir('RepoWithFiles') {
+                    git branch: 'main', url: 'https://github.com/Hadeer-Adel729/CmakeList-OpenCV.git'
+                }
             }
         }
         
@@ -30,7 +32,7 @@ pipeline {
             steps {
                 script {
                     // Run the batch script from the first repo
-                    bat 'CloudTask\\execute_ls.bat'
+                    bat 'RepoWithScript\\execute_ls.bat'
                 }
             }
         }
