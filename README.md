@@ -53,7 +53,9 @@ to create a New Pipeline Project:-
 
 Task2
 -----
+Requirement-> Use the 'execute_ls.sh' file in master branch to clone another reposiotry.
 
+#Steps
 1-Create bash script file that executes the "Is" command
 
  -> the script is written in 'execute_ls.sh' file in master branch
