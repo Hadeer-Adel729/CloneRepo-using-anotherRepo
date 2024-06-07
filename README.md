@@ -55,7 +55,8 @@ Task2
 -----
 Requirement-> Use the 'execute_ls.sh' file in master branch to clone another reposiotry.
 
-<h2>Steps
+Steps
+--------
 
 1-Create bash script file that executes the "Is" command
 
