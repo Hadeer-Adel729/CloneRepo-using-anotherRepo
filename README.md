@@ -86,3 +86,8 @@ Steps
 
     .Save your changes.
 
+Pipeline output
+---------------
+![Screenshot (286)](https://github.com/Hadeer-Adel729/CloneRepo-using-anotherRepo/assets/119612208/742bd51a-1b80-4c04-9c4e-f84b0250a1f4)
+
+
